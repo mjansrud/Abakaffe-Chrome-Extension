@@ -1,0 +1,28 @@
+/*
+	Settings
+*/ 
+body{ 
+   max-width:300px;
+   width:300px;
+   padding:0px;
+}
+.container-fluid{
+	padding-left:25px;
+	padding-right:35px;  
+	padding-top:15px;
+	padding-bottom:15px;  
+}
+#status{
+	margin-top:7px;
+	vertical-align: middle;
+}
+#abort{
+	margin-top:10px;
+	width:100%;
+}
+#hours{
+	display: inline-block;
+}
+#minutes{
+	display: inline-block;
+}
