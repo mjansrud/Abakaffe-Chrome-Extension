@@ -20,7 +20,7 @@ $(function() {
 					status = data["coffee"]["status"];
 					hours = data["coffee"]["time_since"]["hours"];
 					minutes = data["coffee"]["time_since"]["minutes"];
-					if(hours == 0 && minutes >= 8  && minutes <= 14){
+					if(hours == 1 && minutes >= 9 && minutes <= 59){
 						createNotification();
 						chrome.storage.sync.set({"request": false});
 					} 
